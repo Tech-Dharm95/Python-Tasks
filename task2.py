@@ -1,11 +1,9 @@
-# Task 2: Personalized Greeting
+# Initialize a variable to hold the sum
+total_sum = 0
 
-# Taking the user's first name and last name as input
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
+# Use a for loop to iterate over numbers from 1 to 50
+for number in range(1, 51):  # The range is inclusive of 1 and exclusive of 51
+    total_sum += number
 
-# Concatenating the names to form the full name
-full_name = f"{first_name} {last_name}"
-
-# Printing a personalized greeting message
-print(f"Hello, {full_name}! Welcome!")
+# Display the final sum
+print(f"The sum of integers from 1 to 50 is: {total_sum}")
